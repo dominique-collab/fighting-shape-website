@@ -11,10 +11,14 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#161616">
 <link rel="icon" href="img/avatar.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+<link rel="preload" href="/fonts/oswald-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+@font-face{font-family:'Oswald';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/oswald-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/oswald-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/oswald-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/dm-sans-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/dm-sans-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/dm-sans-latin-700-normal.woff2) format('woff2')}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
 body{margin:0;background:#161616}
 *{-webkit-tap-highlight-color:transparent}
@@ -30,9 +34,44 @@ summary::marker{color:#D9734F}
 <div style="min-height: 100vh; background: #161616; color: #F4F1EC; font-family: 'DM Sans', 'Helvetica Neue', sans-serif; font-size: 17px; line-height: 1.6">
 <header style="border-bottom: 1px solid #2A2A2A"><div style="max-width: 860px; margin: 0 auto; padding: 14px 20px"><a href="/" style="color: #F4F1EC; text-decoration: none; display: flex; align-items: center; gap: 12px"><img src="img/avatar.jpg" alt="" width="40" height="40" style="width:40px;height:40px;border-radius:50%;border:3px solid #B5502E;box-sizing:border-box;object-fit:cover"><span><b>Dominique Ulysse</b><br><span style="font-size:13px;color:#B4AFA7">Fighting Shape Coaching</span></span></a></div></header>
 <main style="max-width: 860px; margin: 0 auto; padding: 56px 20px 80px">
-<h1 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 44px; text-transform: uppercase; margin: 0 0 24px">Datenschutzerklärung</h1>
-<p style="color: #B4AFA7">[Hier kommt der Text hin, z. B. aus dem eRecht24-Generator.]</p>
-<p><a href="/" style="color: #D9734F">← Zurück zur Startseite</a></p>
+<h1 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 44px; text-transform: uppercase; margin: 0 0 8px">Datenschutzerklärung</h1>
+<p style="margin: 0 0 24px; color: #8F8A83">Stand: November 2026</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">1. Verantwortlicher</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Verantwortlich für die Datenverarbeitung auf dieser Website und im Rahmen des Coachings ist:</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Dominique Ulysse<br>Gert-Marcus-Str. 1B<br>22529 Hamburg<br>Deutschland<br>E-Mail: <a href="mailto:dominique@dulysse.de" style="color: #D9734F">dominique@dulysse.de</a></p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">2. Überblick</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Diese Website setzt keine Cookies ein und nutzt keine Analyse-, Tracking- oder Werbedienste. Die Schriftarten werden direkt von dieser Website geladen. Eine Verbindung zu Google findet dabei nicht statt.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Ich verarbeite personenbezogene Daten nur, soweit das für den Betrieb der Website, für die Bearbeitung deiner Anfrage und für die Durchführung des Coachings nötig ist.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">3. Hosting und Server-Logfiles</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Diese Website wird bei Netlify, Inc., San Francisco, USA, gehostet. Beim Aufruf der Seite verarbeitet Netlify automatisch technische Daten, die dein Browser übermittelt: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version, Betriebssystem und Referrer-URL.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Diese Verarbeitung ist für einen sicheren und stabilen Betrieb der Website erforderlich. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Netlify ist nach dem EU-US Data Privacy Framework zertifiziert. Die Übermittlung in die USA erfolgt auf Grundlage des Angemessenheitsbeschlusses der EU-Kommission (Art. 45 DSGVO). Mit Netlify besteht ein Vertrag zur Auftragsverarbeitung.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">4. Anfrageformular</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Wenn du mir über das Formular eine Coaching-Anfrage schickst, verarbeite ich deine Angaben: Name, E-Mail-Adresse, WhatsApp-Nummer, Alter, deine Angaben zu dir und deinen Zielen sowie das Programm, das dich interessiert.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Ich nutze diese Daten, um deine Anfrage zu prüfen und dich per WhatsApp für ein Kennenlern-Gespräch zu kontaktieren. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen auf deine Anfrage).</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Wenn deine Angaben Gesundheitsdaten enthalten, zum Beispiel zu Gewicht, Beschwerden oder Verletzungen, verarbeite ich diese auf Grundlage deiner ausdrücklichen Einwilligung nach Art. 9 Abs. 2 lit. a DSGVO. Diese erteilst du im Formular. Du kannst sie jederzeit mit Wirkung für die Zukunft widerrufen, zum Beispiel per E-Mail.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Die Formulardaten werden über den Dienst „Netlify Forms“ von Netlify, Inc. (siehe Abschnitt 3) entgegengenommen und gespeichert. Kommt kein Coaching zustande, lösche ich deine Anfrage spätestens 6 Monate nach dem letzten Kontakt.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">5. Kontakt per WhatsApp und E-Mail</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Die Kommunikation vor und während des Coachings läuft überwiegend über WhatsApp, einen Dienst der WhatsApp Ireland Limited, Dublin, Irland. Nachrichten sind Ende-zu-Ende verschlüsselt. Metadaten wie Telefonnummer und Zeitpunkt der Kommunikation werden dabei auch an Meta Platforms, Inc., USA, übermittelt. Meta ist nach dem EU-US Data Privacy Framework zertifiziert.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Wenn du mir eine E-Mail schreibst, verarbeite ich deine E-Mail-Adresse und den Inhalt deiner Nachricht.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Anbahnung und Durchführung des Vertrags) bzw. Art. 6 Abs. 1 lit. f DSGVO (Beantwortung allgemeiner Anfragen). Wenn du nicht über WhatsApp kommunizieren möchtest, erreichst du mich jederzeit per E-Mail.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">6. Durchführung des Coachings</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Für das Coaching verarbeite ich die Daten, die du mir im Rahmen des Vertrags, des Fragebogens, der Tracking-Tabelle, der Coaching-App sowie über Fotos und Videos zur Verfügung stellst. Dazu gehören zum Beispiel Körpermaße, Trainings- und Ernährungsdaten, Leistungswerte sowie Angaben zu Gesundheit und Verletzungen.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Für Fragebogen und Tracking-Tabelle nutze ich Google Forms und Google Sheets der Google Ireland Limited, Dublin, Irland. Deine Trainings- und Ernährungspläne stelle ich dir über die Coaching-App Nutrilize bereit. Diese Anbieter verarbeiten die Daten in meinem Auftrag.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung). Gesundheitsdaten verarbeite ich nur mit deiner ausdrücklichen Einwilligung nach Art. 9 Abs. 2 lit. a DSGVO. Du kannst sie jederzeit mit Wirkung für die Zukunft widerrufen. Ohne diese Daten ist ein individuelles Coaching allerdings nicht möglich.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Vorher-Nachher-Bilder und Erfahrungsberichte veröffentliche ich nur mit deiner gesonderten, ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Auch diese kannst du jederzeit widerrufen.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">7. Zahlungsabwicklung</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Zahlungen wickle ich über den Zahlungsdienstleister Stripe ab (Stripe Payments Europe Ltd., Dublin, Irland). Dazu übermittelst du über einen Zahlungslink deinen Namen, deine E-Mail-Adresse und deine Zahlungsdaten direkt an Stripe. Weitere Informationen findest du unter <a href="https://stripe.com/de/privacy" style="color: #D9734F">stripe.com/de/privacy</a>.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Wenn du die Ratenzahlung über Klarna wählst, werden deine Daten an die Klarna Bank AB (publ), Stockholm, Schweden, übermittelt. Klarna prüft dabei in eigener Verantwortung unter anderem deine Kreditwürdigkeit. Details findest du unter <a href="https://www.klarna.com/de/datenschutz/" style="color: #D9734F">klarna.com/de/datenschutz</a>.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Bei Zahlung per Überweisung verarbeite ich die Daten aus deiner Überweisung (Name, Bankverbindung, Betrag, Verwendungszweck). Rechtsgrundlage ist jeweils Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">8. Speicherdauer</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Ich speichere personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist. Coaching-Daten lösche ich in der Regel spätestens 12 Monate nach Ende des Coachings. Vertrags- und Zahlungsunterlagen bewahre ich so lange auf, wie es die gesetzlichen Aufbewahrungspflichten vorschreiben.</p>
+<h2 style="font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 24px; text-transform: uppercase; margin: 40px 0 10px">9. Deine Rechte</h2>
+<p style="margin: 0 0 14px; color: #DCD7CF">Du hast das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO) und Datenübertragbarkeit (Art. 20 DSGVO). Erteilte Einwilligungen kannst du jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3 DSGVO).</p>
+<p style="margin: 0 0 14px; color: #DCD7CF"><b>Widerspruchsrecht:</b> Soweit ich Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO verarbeite, kannst du dieser Verarbeitung aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit widersprechen (Art. 21 DSGVO).</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Um deine Rechte auszuüben, genügt eine E-Mail an <a href="mailto:dominique@dulysse.de" style="color: #D9734F">dominique@dulysse.de</a>.</p>
+<p style="margin: 0 0 14px; color: #DCD7CF">Außerdem hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für mich zuständig ist der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit.</p>
+<p style="margin-top: 40px"><a href="/" style="color: #D9734F">← Zurück zur Startseite</a></p>
 </main>
 </div>
 </body>
